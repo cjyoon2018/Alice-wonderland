@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #EAEAEA; /* A light background that's easy on the eyes */
+}
+
+/* Header Styling */
+header {
+    background-color: #8ABAD3; /* Soft blue similar to the image provided */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Large font size for the e-book title */
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    background-color: #6D929B; /* Darker shade for navigation background */
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #5C7C85; /* Even darker shade for hover/active link */
+    border-radius: 5px; /* Slight rounding on the buttons for aesthetic */
+}
+
+/* Main Content Area */
+main {
+    background-color: white; /* White background for content area */
+    padding: 30px;
+    margin: 20px auto; /* Center the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 800px; /* Max width for optimal reading line length */
+}
+
+article h2 {
+    color: #333333;
+    font-size: 1.8em; /* Slightly larger font size for chapter titles */
+    margin-bottom: 20px;
+}
+
+/* Paragraph Formatting */
+p {
+    margin-bottom: 1em; /* Spacing between paragraphs */
+    text-align: justify; /* Justified text as in the example image */
+    hyphens: auto; /* For better word-wrapping */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8ABAD3; /* Same as header background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    main {
+        padding: 15px;
+        margin: 10px auto;
+    }
+}
